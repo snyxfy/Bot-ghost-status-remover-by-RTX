@@ -36,7 +36,7 @@ app.listen(port, () => {
 });
 
 
-const statusMessages = ["👑 I am RTX","Spotify","Youtube","SUBSCRIBE❤️","THANKS 🌇"];
+const statusMessages = ["playing hide and seek with my motivation..", "Counting to infinity... it might take a while. Be patient.", "Debugging in progress... or maybe I'm just trying to find my keys.", "Attempting to catch 'em all... but they keep multiplying. Help", "Running on caffeine and code. Mostly caffeine"];
 
 
 let currentIndex = 0;
