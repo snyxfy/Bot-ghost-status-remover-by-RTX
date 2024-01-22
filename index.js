@@ -18,8 +18,8 @@
 const { Client, GatewayIntentBits, ActivityType, TextChannel, Collection } = require('discord.js');
 require('dotenv').config();
 const express = require('express');
-const fs = require('nodde:fs');
-const path = require('node:path');
+const fs = require('fs');
+const path = require('path');
 const client = new Client({
   intents: Object.keys(GatewayIntentBits).map((a) => {
     return GatewayIntentBits[a];
